@@ -8,4 +8,14 @@ class Styles {
     color: textColor,
     fontWeight: FontWeight.w700,
   );
+  static TextStyle header2 = TextStyle(
+    fontSize: 22,
+    color: textColor,
+    fontWeight: FontWeight.w700,
+  );
+  static TextStyle header3 = const TextStyle(
+    fontSize: 16,
+    color: Colors.white,
+    fontWeight: FontWeight.w500,
+  );
 }

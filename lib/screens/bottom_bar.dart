@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:fluentui_icons/fluentui_icons.dart';
+import 'package:pesona_moa/screens/destination_screen.dart';
 import 'package:pesona_moa/screens/food_screen.dart';
-import 'package:pesona_moa/screens/place_screen.dart';
 
 class BottomBar extends StatefulWidget {
   const BottomBar({super.key});
@@ -13,7 +13,7 @@ class BottomBar extends StatefulWidget {
 class _BottomBarState extends State<BottomBar> {
   int _selectedIndex = 0;
   static final List<Widget> _widgetOptions = <Widget>[
-    const PlaceScreen(),
+    const DestinationScreen(),
     const FoodScreen(),
   ];
 
